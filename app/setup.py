@@ -12,7 +12,7 @@ cur.execute(sql)
 
 sql ="""
 CREATE TABLE Usuarios 
-           (rut integer PRIMARY KEY, Nombre varchar(40), edad integer, direccion varchar(72), Game_master boolean);
+           (rut integer PRIMARY KEY, Nombre varchar(40), edad integer, direccion varchar(72), Game_master boolean, password varchar(20));
 """
 
 cur.execute(sql)
@@ -64,7 +64,7 @@ CREATE TABLE Objetos
 """
 
 cur.execute(sql)
-sql=Â"""
+sql=Ã‚"""
 CREATE TABLE Inventario
 	(id_objeto integer,id_personaje integer,cantidad);
 cur.execute(sql)
