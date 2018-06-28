@@ -34,6 +34,29 @@ insert into Campana (nombre_campana) values('Kono subarashii sekai ni shukufuku 
 insert into Campana (cantidad_jugadores) values(4);
 insert into Campana (id_game_master) values(1);
 
+insert into Razas (1) values('Enano', 'Enano de las colinas', '+2 Con +1 Sab', +1 Golpe por nivel')
+insert into Razas (1) values('Enano', 'Enano de las montanas', '+2 Con +2 Fue', 'Competencia armadura lig y pes')
+
+insert into Razas (2) values('Elfo', 'Alto Elfo', '+2 Des +1 Int', 'Vision en la oscuridad, sentidos agudos') 
+insert into Razas (2) values('Elfo', 'Elfo de los bosques', '+2 Des +1 Sab', 'Mascara de la naturaleza')
+insert into Razas (2) values('Elfo', 'Elfo oscuro', '+2 Des +1 Car', 'Magia Drow')
+
+insert into Razas (3) values('Mediano', 'Piesligeros', '+2 Des +1 Car', 'Sigiloso por Naturaleza')
+insert into Razas (3) values('Mediano', 'Fornido', '+2 Des +1 Con', 'Resistencia de Fornido')
+
+insert into Razas (4) values('Humano', 'Humankind', '+1 Fue +1 Con +1 Car +1 Des +1 Sab +1 Int', 'Competencia y dote a eleccion')
+
+insert into Razas (5) values('Draconido', 'Linaje', '+2 Fue +1 Car', 'Linaje draconido')
+
+insert into Razas (6) values('Gnomo', 'Gnomo de los bosques', '+2 Int +1 Des', 'Hablar con las Bestezuelas')
+insert into Razas (6) values('Gnomo', 'Gnomo de las rocas', '+2 Int +1 Con', 'Saber del Artificiero, Manitas')
+
+insert into Razas (7) values('Semielfo', 'De dos mundos', '+2 Car +1x2 a eleccion', 'Linaje Feerico, Versatil con habilidades')
+
+insert into Razas (8) values('Semiorco', 'Gruumsh', '+2 Fue +1 Con', 'Amenazador, Aguante incansable, Ataques salvajes')
+
+insert into Razas (9) values('Tiefling', 'Infernal', '+2 Car +1 Int', 'Resistencia infernal, Linaje Infernal')
+
 
 
 """
