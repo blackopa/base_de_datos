@@ -39,19 +39,12 @@ insert into Razas (subraza) values('Enano de las colinas', 'Enano de las montana
 insert into Razas (Aumento_atributo) values('+2 Con +1 Sab', '+2 Con +2 Fue', '+2 Des +1 Int', '+2 Des +1 Sab', '+2 Des +1 Car', '+2 Des +1 Car', '+2 Des +1 Con', '+2 Fue +1 Car',  '+1 Fue +1 Con +1 Car +1 Des +1 Sab +1 Int', '+2 Int +1 Des', '+2 Int +1 Con', '+2 Car +1x2 a eleccion', '+2 Fue +1 Con', '+2 Car +1 Int')
 insert into Razas (habilidad_raza) values('+1 Golpe por nivel', 'Competencia armadura lig y pes', 'Vision en la oscuridad, sentidos agudos', 'Mascara de la naturaleza', 'Magia Drow', 'Sigiloso por Naturaleza', 'Resistencia de Fornido', 'Competencia y dote a eleccion', 'Linaje draconido', 'Hablar con las Bestezuelas', 'Saber del Artificiero, Manitas', 'Linaje Feerico, Versatil con habilidades', 'Amenazador, Aguante incansable, Ataques salvajes', 'Resistencia infernal, Linaje Infernal')  
 
+insert into Clases (nombre) values('Barbaro', 'Bardo', 'Brujo', 'Clerigo', 'Druida', 'Explorador', 'Guerrero', 'Hechicero', 'Mago', 'Monje', 'Paladin, 'Picaro')
+insert into Clases (dado_golpe) values('d12', 'd8', 'd8', 'd8', 'd8', 'd10', 'd10', 'd6', 'd6', 'd8', 'd10', 'd8')
+insert into Clases (atributo_adepto) values('Fuerza', 'Carisma', 'Carisma', 'Sabiduria', 'Sabiduria', 'Destreza y Sabiduria', 'Fuerza o Destreza', 'Carisma', 'Inteligencia', 'Destreza y Sabiduria', 'Fuerza y Carisma', 'Destreza')
 
-insert into Clases (1) values('Barbaro', 'd12', 'Fuerza',
-insert into Clases (2) values('Bardo', 'd8', 'Carisma',
-insert into Clases (3) values('Brujo', 'd8', 'Carisma',
-insert into Clases (4) values('Clerigo', 'd8', 'Sabiduria',
-insert into Clases (5) values('Druida', 'd8', 'Sabiduria',
-insert into Clases (6) values('Explorador', 'd10', 'Destreza y Sabiduria',
-insert into Clases (7) values('Guerrero', 'd10', 'Fuerza o Destreza',
-insert into Clases (8) values('Hechicero', 'd6', 'Carisma',
-insert into Clases (9) values('Mago', 'd6', 'Inteligencia',
-insert into Clases (10) values('Monje', 'd8', 'Destreza y Sabiduria',
-insert into Clases (11) values('Paladin', 'd10', 'Fuerza y Carisma',
-insert into Clases (12) values('Picaro', 'd8', 'Destreza', 
+
+
 
 """
 cur.execute(sql)
