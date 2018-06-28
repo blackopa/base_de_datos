@@ -12,7 +12,7 @@ cur.execute(sql)
 
 sql ="""
 CREATE TABLE Usuarios 
-           (rut integer PRIMARY KEY, Nombre varchar(40), edad integer, direccion varchar(72), Game_master boolean, password varchar(20));
+           (rut integer PRIMARY KEY, Nombre varchar(40), edad integer, nickname varchar(20), direccion varchar(72), Game_master boolean, password varchar(20));
 """
 
 cur.execute(sql)
