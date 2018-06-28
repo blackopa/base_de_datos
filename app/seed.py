@@ -65,18 +65,18 @@ insert into hechizos (nivel_hechizo) values(0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,
 
 """
 cur.execute(sql)
-
+sql ="""
+insert into Objeto (nombre,descripcion) values ('Baston','1d6 Contundente') returning id;
+"""
+cur.execute(sql)
 conn.commit()
-post_id = cur.fetchone()[0]
+objeto_id = cur.fetchone()[0]
 
-print post_id
+print objeto_id
 
-
-sql ="""insert INTO categorias_posts (categoria_id,post_id)
-(SELECT id,%i  FROM categorias where nombre = 'Cine' or 
- nombre = 'Geek' or 
-  nombre = 'Mundo Marvel'
-);"""%(post_id)
+sql ="""insert INTO Inventario (personaje_id,objeto_id,cantidad)
+(SELECT id,%i,2  FROM Personaje,Usuario where Personaje.nombre = 'Tsun gu' and Usuarios.nickname='Kopa';
+);"""%(objeto_id)
 
 cur.execute(sql)
 
