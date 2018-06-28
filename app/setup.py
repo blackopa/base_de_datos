@@ -66,7 +66,7 @@ CREATE TABLE Objetos
 cur.execute(sql)
 sql=Â"""
 CREATE TABLE Inventario
-	(id_objeto integer,id_personaje integer,cantidad integer);
+	(id_personaje integer,id_objeto integer,cantidad integer);
 cur.execute(sql)
 
 sql ="""
