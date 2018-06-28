@@ -27,7 +27,7 @@ insert into Personajes (nivel_clase) values(1,1,1,1);
 insert into Personajes (Fuerza) values(20, 12, 13, 14);
 insert into Personajes (Destreza) values(20, 12 , 14 ,11);
 insert into Personajes (Constitucion) values(20, 12, 14, 11);
-insert into Personajes (Inteligencia) values(1, 12, 13, 14);
+insert into Personajes (Inteligencia) values(20, 12, 13, 14);
 insert into Personajes (Sabiduria) values(20, 13, 14, 10);
 insert into Personajes (Carisma) values(20, 11, 12, 13);
 
@@ -55,6 +55,13 @@ insert into Objetos (descripcion) values('1d10 Cortante ¡La mejor arma de todas
 
 insert into Objetos (nombre) values('Arco largo', 'Ballesta de mano', 'Ballesta pesada', 'cerbatana', 'Red');
 insert into Objetos (descripcion) values('1d8 Perforante', '1d6 Perforante', '1d10 Perforante', '1 Perforante', '¿De verdad crees que esto hace daño?');
+
+
+
+insert into hechizos (nombre) values('Amistad', 'Burla dañina', 'Caida de pluma', 'Curar heridas', 'Abrir', 'Boca magica', 'Clarividencia', 'Crecimiento vegetal', 'Compulsion', 'Confusion', 'Alterar los recuerdos', 'Alzar a los muertos', 'Baile irresistible de Otto', 'Encontrar el camino', 'Espada de Mordenkainen', 'Dominar monstruo', 'Labia', 'Palabra de poder: matar', 'Palabra de poder: sanar');
+insert into hechizos (nivel_hechizo) values(0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9);
+
+
 
 """
 cur.execute(sql)
