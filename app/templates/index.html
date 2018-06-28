@@ -1,0 +1,27 @@
+<form action="/App/seed" method="GET">
+	<center>
+    <input type="varchar[40]" name="nick" /><br/>
+	<p>Ingrese nick</p>
+		<input type="varchar[20]" name="pasword"  /><br/>
+    <p>Ingrese password</p
+    <input type="submit" value="ingresar" /
+	</center>
+</form>
+{{if .flash.success}}
+<div class="alert alert-success">
+	{{.flash.success}}
+</div>
+{{end}}
+
+{{if or .errors .flash.error}}
+<div class="alert alert-danger">
+	{{if .flash.error}}
+		{{.flash.error}}
+	{{end}}
+	<ul style="margin-top:10px;">
+		{{range .errors}}
+			<li>{{.}}</li>
+		{{end}}
+	</ul>
+</div>
+{{end}}
