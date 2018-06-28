@@ -58,6 +58,18 @@ insert into Razas (8) values('Semiorco', 'Gruumsh', '+2 Fue +1 Con', 'Amenazador
 insert into Razas (9) values('Tiefling', 'Infernal', '+2 Car +1 Int', 'Resistencia infernal, Linaje Infernal')
 
 
+insert into Clases (1) values('Barbaro', 'd12', 'Fuerza',
+insert into Clases (1) values('Bardo', 'd8', 'Carisma',
+insert into Clases (1) values('Brujo', 'd8', 'Carisma',
+insert into Clases (1) values('Clerigo', 'd8', 'Sabiduria',
+insert into Clases (1) values('Druida', 'd8', 'Sabiduria',
+insert into Clases (1) values('Explorador', 'd10', 'Destreza y Sabiduria',
+insert into Clases (1) values('Guerrero', 'd10', 'Fuerza o Destreza',
+insert into Clases (1) values('Hechicero', 'd6', 'Carisma',
+insert into Clases (1) values('Mago', 'd6', 'Inteligencia',
+insert into Clases (1) values('Monje', 'd8', 'Destreza y Sabiduria',
+insert into Clases (1) values('Paladin', 'd10', 'Fuerza y Carisma',
+insert into Clases (1) values('Picaro', 'd8', 'Destreza', 
 
 """
 cur.execute(sql)
