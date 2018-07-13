@@ -40,7 +40,7 @@ cur.execute(sql)
 
 sql ="""
 CREATE TABLE Razas
-           (razas_id serial PRIMARY KEY, nombre varchar(140), subraza varchar(40),Aumento_atributo varchar(40),habilidad_raza varchar(100));
+           (razas_id serial PRIMARY KEY, nombre varchar(140), ,Aumento_atributo varchar(40),habilidad_raza varchar(100), Fuerza integer, Destreza integer, Constitucion integer, Inteligencia integer, Sabiduria integer, Carisma integer);
 """
 
 cur.execute(sql)
