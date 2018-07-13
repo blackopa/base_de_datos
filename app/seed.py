@@ -37,8 +37,13 @@ insert into Campana (id_game_master) values(1);
 
 insert into Razas (nombre) values('Enano','Enano','Elfo', 'Elfo', 'Elfo', 'Mediano', 'Mediano', 'Humano', 'Draconido', 'Gnomo', 'Gnomo', 'Semielfo', 'Semiorco', 'Semielfo', 'Tiefling');
 insert into Razas (subraza) values('Enano de las colinas', 'Enano de las montanas', 'Alto Elfo', 'Elfo de los bosques', 'Elfo oscuro', 'Piesligeros', 'Fornido', 'Humano', 'Linaje', 'Gnomo de los bosques', 'Gnomo de las rocas', 'De dos mundos', 'Gruumsh', 'Infernal');
-insert into Razas (Aumento_atributo) values('+2 Con +1 Sab', '+2 Con +2 Fue', '+2 Des +1 Int', '+2 Des +1 Sab', '+2 Des +1 Car', '+2 Des +1 Car', '+2 Des +1 Con', '+2 Fue +1 Car',  '+1 Fue +1 Con +1 Car +1 Des +1 Sab +1 Int', '+2 Int +1 Des', '+2 Int +1 Con', '+2 Car +1x2 a eleccion', '+2 Fue +1 Con', '+2 Car +1 Int');
 insert into Razas (habilidad_raza) values('+1 Golpe por nivel', 'Competencia armadura lig y pes', 'Vision en la oscuridad, sentidos agudos', 'Mascara de la naturaleza', 'Magia Drow', 'Sigiloso por Naturaleza', 'Resistencia de Fornido', 'Competencia y dote a eleccion', 'Linaje draconido', 'Hablar con las Bestezuelas', 'Saber del Artificiero, Manitas', 'Linaje Feerico, Versatil con habilidades', 'Amenazador, Aguante incansable, Ataques salvajes', 'Resistencia infernal, Linaje Infernal'); 
+insert into Razas (Fuerza) 	 values(0,2,0,0,0,0,0,2,1,0,0,0,2,0,0);
+insert into Razas (Destreza) 	 values(0,0,2,2,2,2,2,0,1,1,0,1,0,0,0);
+insert into Razas (Constitucion) values(2,2,0,0,0,0,1,0,1,0,1,1,0,1,1);
+insert into Razas (Inteligencia) values(0,0,1,0,0,0,0,0,1,2,2,0,0,1,2);
+insert into Razas (Sabiduria)	 values(1,0,0,1,0,0,0,0,1,0,0,0,0,0,1);
+insert into Razas (Carisma)	 values(0,0,0,0,1,1,0,1,1,0,0,2,0,2,1);
 
 insert into Clases (nombre) values('Barbaro', 'Bardo', 'Brujo', 'Clerigo', 'Druida', 'Explorador', 'Guerrero', 'Hechicero', 'Mago', 'Monje', 'Paladin, 'Picaro');
 insert into Clases (dado_golpe) values('d12', 'd8', 'd8', 'd8', 'd8', 'd10', 'd10', 'd6', 'd6', 'd8', 'd10', 'd8');
